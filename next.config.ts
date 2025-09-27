@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "skillicons.dev",
-        pathname: "/icons?i=**",
+        pathname: "/**",
       },
     ],
   },
