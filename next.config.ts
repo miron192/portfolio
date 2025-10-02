@@ -20,6 +20,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'], // Utilizează SVGR pentru a transforma SVG-uri în componente React
+    });
+    return config;
+  },
 };
 
 export default nextConfig;
