@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+// next.config.js
+module.exports = {
   images: {
     remotePatterns: [
       {
@@ -23,10 +22,8 @@ const nextConfig: NextConfig = {
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
-      use: ['@svgr/webpack'], // Utilizează SVGR pentru a transforma SVG-uri în componente React
+      use: ['@svgr/webpack'],
     });
     return config;
   },
 };
-
-export default nextConfig;
