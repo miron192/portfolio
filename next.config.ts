@@ -14,14 +14,6 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "skillicons.dev",
-<<<<<<< HEAD
-=======
-        pathname: '/icons/**', 
->>>>>>> 414a9881adf908234fbd82d78dbfa856340970a4
-      },
     ],
   },
 };
