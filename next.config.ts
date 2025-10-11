@@ -1,6 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
+  experimental: {
+    turbopack: true, // Activează Turbopack
+  },
   images: {
     remotePatterns: [
       {
@@ -16,6 +17,10 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "skillicons.dev",
+<<<<<<< HEAD
+=======
+        pathname: '/icons/**', 
+>>>>>>> 414a9881adf908234fbd82d78dbfa856340970a4
       },
     ],
   },
