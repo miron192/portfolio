@@ -9,6 +9,7 @@ const menuItems = [
   { name: "Projects", href: "#projects" },
 
   { name: "Why Me?", href: "#whyme" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const HeroHeader = () => {

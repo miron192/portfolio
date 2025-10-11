@@ -1,3 +1,4 @@
+import ContactPage from "@/components/contact-page";
 import Features from "@/components/features";
 import HeroSection from "@/components/hero-section";
 import LogoCloud from "@/components/logo-cloud";
@@ -10,6 +11,7 @@ export default function Home() {
       <LogoCloud />
       <Projects />
       <Features />
+      <ContactPage />
     </div>
   );
 }

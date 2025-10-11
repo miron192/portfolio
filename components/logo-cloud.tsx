@@ -1,6 +1,5 @@
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
-import Image from "next/image";
 
 export default function LogoCloud() {
   return (
@@ -13,138 +12,110 @@ export default function LogoCloud() {
           <div className="relative py-6 md:w-[calc(100%-11rem)]">
             <InfiniteSlider speedOnHover={20} speed={40} gap={80}>
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=html"
                   alt="HTML Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=css"
                   alt="CSS Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=js"
                   alt="JavaScript Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=nextjs"
                   alt="Next.js Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=github"
                   alt="GitHub Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=react"
                   alt="React Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=cpp"
                   alt="C++ Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=n8n"
                   alt="n8n Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=microsoft"
                   alt="Microsoft Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=mysql"
                   alt="SQL Logo"
                 />
               </div>
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=mongodb"
                   alt="MongoDB Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=vercel"
                   alt="Vercel Logo"
                 />
               </div>
 
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit"
+                <img
+                  className="mx-auto h-8 w-8 object-contain"
                   src="https://skillicons.dev/icons?i=tailwind"
                   alt="TailwindCSS Logo"
                 />
               </div>
               <div className="flex">
-                <Image
-                  width={32}
-                  height={32}
-                  className="mx-auto h-8 w-fit dark:invert"
+                <img
+                  className="mx-auto h-8 w-8 object-contain dark:invert"
                   src="https://skillicons.dev/icons?i=figma"
                   alt="Figma Logo"
                 />
